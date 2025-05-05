@@ -23,17 +23,17 @@ const AuthLayout = ({ children }) => {
           <StatsInfoCard
             icon={<LuTrendingUpDown />}
             label="Track Your Income & Expenses"
-            value="430,000"
+            value="₹430,000"
             color="bg-purple-500"
           />
         </div>
 
         {/* Histogram Image */}
-        <div className="z-10 mb-6 flex justify-end">
+        <div className="z-10 mb-4 flex justify-end">
           <img
             src={CARD_2}
             alt="Histogram"
-            className="w-64 lg:w-[90%] shadow-lg shadow-blue-400/15"
+            className="w-[95%] h-auto max-h-[350px] object-contain rounded-xl shadow-xl shadow-blue-400/20 transition-all duration-300"
           />
         </div>
       </div>
@@ -53,7 +53,7 @@ const StatsInfoCard = ({ icon, label, value, color }) => {
       </div>
       <div>
         <h6 className="text-xs text-gray-500 mb-1">{label}</h6>
-        <span className="text-[20px]">${value}</span>
+        <span className="text-[20px]">{value}</span>
       </div>
     </div>
   );

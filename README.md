@@ -45,3 +45,25 @@ Watch the demo of our Expense Tracker in action:
    ```bash
    git clone https://github.com/swapnilshinde1101/ExpenseTracker.git
    cd ExpenseTracker
+   ```
+
+2. **Install backend dependencies and start:**
+   ```bash
+   cd ../backend
+   npm install
+   npm start
+
+   ```
+3. **Install frontend dependencies and start:**
+   ```bash
+   cd ../frontend
+   npm install
+   npm run dev
+
+   ```
+
+## Team Members
+
+- [Swapnil Shinde](https://github.com/swapnilshinde1101)
+- [Mahendra Jagtap](https://github.com/JagtapMahendra)
+- [Kallappa Bandage](https://github.com/kallappaBandage)
